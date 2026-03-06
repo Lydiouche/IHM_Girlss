@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8"/>
+    <title>IHM 2026 - Captcha</title>
+    <link rel="stylesheet" href="captcha.css" />
+    <script src="captcha.js" defer></script> <!--defer permet une utilisation executable h24 partout-->
+</head>
+<body>
+    <h1>Captcha</h1>
+    <div id="captcha-box">
+        <img alt="Captcha Image" id="captcha-img"/>
+    <br>
+    <p id="instruction"></p>
+    <input type="text" id="captcha-input" placeholder="Entrez le texte de l'image"/>
+    <br>
+    <button id="btn-valider">Valider</button>
+    <p id="ok"></p>
+    </div>
+    <div id="button">
+        <button id="precedent" type="button">Precedent</button>
+        <button id="suivant" type="button">Suivant</button>
+    </div>
+</body>
+</html>

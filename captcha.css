@@ -1,0 +1,50 @@
+body {
+    background-color: floralwhite;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    color: saddlebrown;
+}
+
+h1 {
+    color: rgb(239, 167, 223);
+    text-align: center;
+}
+
+img {
+    width: 200px;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+#captcha-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: saddlebrown;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #5a2d0c;
+}
+
+/* ===== BOUTONS PRECEDENT / SUIVANT ===== */
+#button {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+}
