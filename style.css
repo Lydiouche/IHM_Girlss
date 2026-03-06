@@ -1,0 +1,26 @@
+﻿body {
+    margin: 0em;
+}
+
+.myMenu {
+    background-color: #8cc6eb;
+    margin: 0em;
+}
+
+    .myMenu li {
+        display: inline-block;
+        padding: 1em;
+        cursor: pointer;
+    }
+
+.active {
+    background-color: #146a90;
+}
+div {
+    width: 400px;
+    height: 50px;
+    background-color: var(--primary-color);
+    position: relative;
+    top: 0;
+    left: 0;
+}
