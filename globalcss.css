@@ -68,10 +68,12 @@ canvas {
 }
 .myMenu {
     background-color: saddlebrown;
+    width: 100%;
     display: flex;
     margin: 0em;
     padding: 0; /* Supprime le décalage par défaut des listes */
     text-align: center;
+    justify-content: center;
     list-style-type: none;
 }
 

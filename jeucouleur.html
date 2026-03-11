@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8"/>
+    <title>Devine la couleur - Canvas</title>
+    <link rel="stylesheet" href="globalcss.css" />
+    <script src="hues_cues.js" defer></script> <!--defer permet une utilisation executable h24 partout-->
+</head>
+<body>
+    <!--Menu-->
+    <ul class="myMenu">
+        <li><a href="accueil_livrable.html">Accueil</a></li>
+        <li><a href="canva_livrable.html">Pixel Art</a></li>
+        <li><a href="morpion.html">Morpion</a></li>
+        <li><a href="puissance4.html">Puissance 4</a></li>
+        <li class="active"><a href="jeucouleur.html">Jeu couleur</a></li>
+    </ul>
+    <div id="game-container">
+        <h1>Devine la couleur !</h1>
+        <div id="go">
+            <button id="btn-start">Nouvelle Partie</button>
+            <p id="hint">Cliquez pour commencer</p>
+            <p id="message"></p>
+            <p>Score : <span id="score">0</span></p>
+            <p>Nombre de tours : <span id="turns">0</span></p>
+        </div>
+        <div id="grid"></div>
+    </div>
+</body>
+</html>
