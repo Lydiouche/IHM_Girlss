@@ -19,7 +19,7 @@ const scoreElement = document.getElementById('score');
 const btnStart = document.getElementById('btn-start');
 const turnsElement = document.getElementById('turns');
 
-// Fonction pour générer la couleur (identique à avant)
+// Fonction pour générer la couleur 
 function getGridColor(row, col) {
     const h = (col / COLS) * 360;
     const s = 70;

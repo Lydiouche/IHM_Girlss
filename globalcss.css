@@ -86,7 +86,7 @@ canvas {
 }
 
     .myMenu li.active {
-        background-color: #a62727;
+        background-color: #dcc2c2;
         color: white;
     }
     .myMenu li a {
