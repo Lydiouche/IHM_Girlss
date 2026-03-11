@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globalcss.css">
+    <title></title>
+</head>
+<body>
+    <! -- Menu  -->
+    <ul class="myMenu">
+        <li class="active"><a href="accueil_livrable.html">Accueil</a></li>
+        <li><a href="canva_livrable.html">Pixel Art</a></li>
+        <li><a href="morpion.html">Morpion</a></li>
+        <li><a href="puissance4.html">Puissance 4</a></li>
+        <li><a href="jeucouleur.html">Jeu couleur</a></li>
+    </ul>
+    <! -- Captcha  -->
+    <h1>Vérification de votre identité</h1>
+    <div id="captcha-box">
+        <img alt="Captcha Image" id="captcha-img" />
+        <br>
+        <p id="instruction"></p>
+        <input type="text" id="captcha-input" placeholder="Entrez le texte de l'image" />
+        <br>
+        <button id="btn-valider">Valider</button>
+        <p id="ok"></p>
+    </div>
+    <div id="button">
+        <button id="precedent" type="button">Precedent</button>
+        <button id="suivant" type="button">Suivant</button>
+    </div>
+    <script src="captcha_livrable.js"></script>
+    <script src="menu_accueil.js"></script>
+
+</body>
+</html>
